@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="blackholeport"
+version="1.0.0"
+displayName="Black Hole (Forge port)"
+description='''
+A Forge 1.20.1 port of the Fabric mod "Black Hole" by vini2003: one black hole per world that follows
+players, grows, pulls things in, and eats the terrain.
+'''
+
+[[dependencies.blackholeport]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blackholeport]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
